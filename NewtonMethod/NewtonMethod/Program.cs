@@ -18,7 +18,7 @@ namespace NewtonMethod
 
             Console.WriteLine("Number: {0}, Root power: {1}, Accuracy: {2}, First aproach: {3}", num, power, e, firstAproach);
             Console.WriteLine("Newton method: {0}", NewtonMethod(num, power, e, firstAproach));
-            Console.WriteLine("Math.Pow: {0}", Math.Pow(num, 1/power));
+            Console.WriteLine("Math.Pow: {0}", Math.Pow(num, 1.0/power));
 
             Console.WriteLine("\nTap to continue...");
             Console.ReadKey(true);
