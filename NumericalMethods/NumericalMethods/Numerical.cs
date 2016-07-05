@@ -7,6 +7,9 @@ using System.Diagnostics;
 
 namespace NumericalMethods
 {
+    /// <summary>
+    /// Numerical class provides basic numerical operations such as Newton's methods, standard GCD and binary GCD.
+    /// </summary>
     public static class Numerical
     {
         #region Newton's method
@@ -16,28 +19,29 @@ namespace NumericalMethods
         /// <param name="number">Radicand</param>
         /// <param name="power">Degree of the root</param>
         /// <param name="accuracy">Digit accuracy</param>
-        /// <param name="firstAproach">The initial value</param>
+        /// <param name="firstApproach">The initial value</param>
         /// <returns>N-th root of a number</returns>
-        static double NewtonMethod(double number, int power, double accuracy, double firstAproach)
+        public static double NewtonMethod(double number, int power, double accuracy, double firstApproach)
         {
             if (number != 0)
             {
+                if (power % 2 == 0 && number < 0)
+                    throw new ArgumentException("N-th root with even power and negative base doesn't exist.");
+
                 if (accuracy < 0.0 || accuracy >= 1.0)
                     throw new ArgumentException("Accuracy must be greater than 0 and less than 1.");
 
-                double x = firstAproach;
-
                 while (true)
                 {
-                    double f = Math.Pow(x, power) - number;
+                    double f = Math.Pow(firstApproach, power) - number;
 
                     if (Math.Abs(f) < accuracy)
                         break;
 
-                    x += -f / (power * Math.Pow(x, power - 1));
+                    firstApproach += -f / (power * Math.Pow(firstApproach, power - 1));
                 }
 
-                return x;
+                return firstApproach;
             }
             else
                 return 0;
