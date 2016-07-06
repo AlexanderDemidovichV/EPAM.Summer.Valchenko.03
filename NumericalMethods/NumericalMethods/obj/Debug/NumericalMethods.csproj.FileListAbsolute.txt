@@ -1,0 +1,6 @@
+c:\users\ilia\documents\visual studio 2015\Projects\NumericalMethods\NumericalMethods\bin\Debug\NumericalMethods.XML
+c:\users\ilia\documents\visual studio 2015\Projects\NumericalMethods\NumericalMethods\bin\Debug\NumericalMethods.dll
+c:\users\ilia\documents\visual studio 2015\Projects\NumericalMethods\NumericalMethods\bin\Debug\NumericalMethods.pdb
+c:\users\ilia\documents\visual studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.csprojResolveAssemblyReference.cache
+c:\users\ilia\documents\visual studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.dll
+c:\users\ilia\documents\visual studio 2015\Projects\NumericalMethods\NumericalMethods\obj\Debug\NumericalMethods.pdb
