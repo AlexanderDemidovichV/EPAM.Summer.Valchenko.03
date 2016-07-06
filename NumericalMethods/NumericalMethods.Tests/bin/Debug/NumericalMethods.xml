@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NumericalMethods</name>
+    </assembly>
+    <members>
+        <member name="T:NumericalMethods.Numerical">
+            <summary>
+            Numerical class provides basic numerical operations such as Newton's methods, standard GCD and binary GCD.
+            </summary>
+        </member>
+        <member name="M:NumericalMethods.Numerical.NewtonMethod(System.Double,System.Int32,System.Double,System.Double)">
+            <summary>
+            Newton's method is a method for finding successively better approximations to the roots of a real-valued function
+            </summary>
+            <param name="number">Radicand</param>
+            <param name="power">Degree of the root</param>
+            <param name="accuracy">Digit accuracy</param>
+            <param name="firstApproach">The initial value</param>
+            <returns>N-th root of a number</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.GCD(System.Int32,System.Int32)">
+            <summary>
+            GCD is an efficient method for computing the greatest common divisor of two numbers
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second number</param>
+            <returns>Return greatest common divisor of 'a' and 'b'</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.GCD(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GCD is an efficient method for computing the greatest common divisor of three numbers
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second number</param>
+            <param name="c">Third number</param>
+            <returns>Return greatest common divisor of 'a', 'b' and 'c'</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.GCD(System.Int32[])">
+            <summary>
+            GCD is an efficient method for computing the greatest common divisor of array of numbers
+            </summary>
+            <param name="arr">Array of numbers</param>
+            <returns>Return greatest common divisor of all numbers in array</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.GCD(System.Int32,System.Int32,System.Int64@)">
+            <summary>
+            GCD is an efficient method for computing the greatest common divisor of two numbers. This method can also compute time of evaluation using out parameter named 'elapsedMilliseconds'  
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second number</param>
+            <param name="elapsedMilliseconds">Time of computing</param>
+            <returns>Return greatest common divisor of two numbers</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.GCD(System.Int32,System.Int32,System.Int32,System.Int64@)">
+            <summary>
+            GCD is an efficient method for computing the greatest common divisor of three numbers. This method can also compute time of evaluation using out parameter named 'elapsedMilliseconds'  
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second number</param>
+            <param name="c">Third number</param>
+            <param name="elapsedMilliseconds">Time of computing</param>
+            <returns>Return greatest common divisor of three numbers</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.GCD(System.Int64@,System.Int32[])">
+            <summary>
+            GCD is an efficient method for computing the greatest common divisor of array of numbers. This method can also compute time of evaluation using out parameter named 'elapsedMilliseconds'  
+            </summary>
+            <param name="arr">Array of numbers</param>
+            <param name="elapsedMilliseconds">Time of computing</param>
+            <returns>Return greatest common divisor of all numbers in array</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.BinaryGCD(System.Int32,System.Int32)">
+            <summary>
+            Binary GCD is the method for computing the greatest common divisor of two numbers. Binary GCD uses simpler arithmetic operations than the conventional Euclidean algorithm.  
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second Number</param>
+            <returns>Return greatest common divisor of two numbers</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.BinaryGCD(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Binary GCD is the method for computing the greatest common divisor of three numbers. Binary GCD uses simpler arithmetic operations than the conventional Euclidean algorithm.  
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second Number</param>
+            <param name="c">Third Number</param>
+            <returns>Return greatest common divisor of three numbers</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.BinaryGCD(System.Int32[])">
+            <summary>
+            Binary GCD is the method for computing the greatest common divisor of array of numbers. Binary GCD uses simpler arithmetic operations than the conventional Euclidean algorithm.  
+            </summary>
+            <param name="arr">Array of numbers</param>
+            <returns>Return greatest common divisor of all numbers in array</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.BinaryGCD(System.Int32,System.Int32,System.Int64@)">
+            <summary>
+            Binary GCD is the method for computing the greatest common divisor of two numbers. 
+            Binary GCD uses simpler arithmetic operations than the conventional Euclidean algorithm. 
+            This method can also compute time of evaluation using out parameter named 'elapsedMilliseconds'
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second Number</param>
+            <param name="elapsedMilliseconds">Time of computing</param>
+            <returns>Return greatest common divisor of two numbers</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.BinaryGCD(System.Int32,System.Int32,System.Int32,System.Int64@)">
+            <summary>
+            Binary GCD is the method for computing the greatest common divisor of three numbers. 
+            Binary GCD uses simpler arithmetic operations than the conventional Euclidean algorithm. 
+            This method can also compute time of evaluation using out parameter named 'elapsedMilliseconds'
+            </summary>
+            <param name="a">First number</param>
+            <param name="b">Second Number</param>
+            <param name="c">Third Number</param>
+            <param name="elapsedMilliseconds">Time of computing</param>
+            <returns>Return greatest common divisor of two numbers</returns>
+        </member>
+        <member name="M:NumericalMethods.Numerical.BinaryGCD(System.Int64@,System.Int32[])">
+            <summary>
+            Binary GCD is the method for computing the greatest common divisor of all numbers in array. 
+            Binary GCD uses simpler arithmetic operations than the conventional Euclidean algorithm. 
+            This method can also compute time of evaluation using out parameter named 'elapsedMilliseconds'
+            </summary>
+            <param name="arr">Array of numbers</param>
+            <param name="elapsedMilliseconds">Time of computing</param>
+            <returns>Return greatest common divisor of all numbers in array</returns>
+        </member>
+    </members>
+</doc>
