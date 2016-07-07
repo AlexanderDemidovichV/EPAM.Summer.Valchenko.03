@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BinaryInsertion</name>
+    </assembly>
+    <members>
+        <member name="T:BinaryInsertion.BitMath">
+            <summary>
+            BitMath class provides basical bit operations.
+            </summary>
+        </member>
+        <member name="M:BinaryInsertion.BitMath.BitInsertion(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            BitInsertion is the method which translate both integer numbers into binary form and then
+            insert the first one into another one. You should specify insertion parameters 'i' ang 'j'.
+            </summary>
+            <param name="targetNumber">Number which service such as platform for insertion</param>
+            <param name="insertNumber">Number which you want to insert into 'targetNumber'</param>
+            <param name="i">Start index of insertion</param>
+            <param name="j">End index of insertion</param>
+            <returns>New integer which is obtained by inserting.</returns>
+        </member>
+    </members>
+</doc>

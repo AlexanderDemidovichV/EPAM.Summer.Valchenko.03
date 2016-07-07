@@ -1,0 +1,6 @@
+C:\Users\Ilia\documents\visual studio 2015\Projects\BinaryInsertion\BinaryInsertion\bin\Debug\BinaryInsertion.XML
+C:\Users\Ilia\documents\visual studio 2015\Projects\BinaryInsertion\BinaryInsertion\bin\Debug\BinaryInsertion.dll
+C:\Users\Ilia\documents\visual studio 2015\Projects\BinaryInsertion\BinaryInsertion\bin\Debug\BinaryInsertion.pdb
+C:\Users\Ilia\documents\visual studio 2015\Projects\BinaryInsertion\BinaryInsertion\obj\Debug\BinaryInsertion.csprojResolveAssemblyReference.cache
+C:\Users\Ilia\documents\visual studio 2015\Projects\BinaryInsertion\BinaryInsertion\obj\Debug\BinaryInsertion.dll
+C:\Users\Ilia\documents\visual studio 2015\Projects\BinaryInsertion\BinaryInsertion\obj\Debug\BinaryInsertion.pdb
